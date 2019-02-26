@@ -6,5 +6,5 @@ Query, and SSAS Tabular.
 
 ## PQ DimDate
 
-[PQ DimDate](PQ DimDate.pbix) holds a date dimension generated entirely in M
+[PQ DimDate](PQ%20DimDate.pbix) holds a date dimension generated entirely in M
 script and forms a basis for most useful time intelligence patterns in DAX.
