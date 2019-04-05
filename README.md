@@ -51,14 +51,19 @@ Useful columns:
   reporting filters. A common example might be `YearOffset IN {0, -1} &&
   `YTD=TRUE`. This would show dates in the current and prior years, but only up
   to "today" for each year.
+- DayOf fields indicate a date's position in various periods. These fields
+  handle leap years very specifically. In short, a given date will always have
+  the same DayOfYear and DayOfQuarter regardless of leap year status. March 1 is
+  always `DayOfYear=60` and `DayOfQuarter=60`, even in non-leap years, when it
+  would normally be counted as 59 for each of these. Thus, comparing DayOfYear
+  across years gets you to the same relative date.
 
 ### Fiscal calendars
 
 This template can handle fiscal years with an offset start date, which otherwise
 conform to the standard calendar year (i.e. your calendar contains months which
 start and end with the standard calendar months - quarters need not align). The
-start month can be selected with 
-This file has been updated to handle alternative fiscal start months. The new
-version has an additional parameter to indicate the month number (of the
-calendar year, obviously) which is the start of a custom fiscal calendar. This
-version is not yet performing well enough to link into the master branch.
+start month can be set with the FiscalStartMonth parameter. A value of 1
+indicates there is no fiscal calendar, which will omit all fiscal attributes. A
+value of 2-12 will trigger the fiscal logic. Additional fields are populated to
+support fiscal analysis, which align with 
