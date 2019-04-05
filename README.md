@@ -98,4 +98,8 @@ the below items:
 - Handling users in multiple time zones with the concept of "today"
 - Calculating expected end-dates for projects
 
+I have a goal to include a TSQL equivalent, so you can create this date table in
+SQL Server as a combination of base table and view, or perhaps a base table and
+table-valued function, to handle the dynamic parts.
+
 Feel free to raise issues for anything you think might fit.
