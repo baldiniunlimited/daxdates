@@ -1,24 +1,24 @@
 {
-  "name": "4e5169f6-1b60-43ee-86c5-4cc3a758cbd1",
+  "name": "0c4025c1-e4f3-4a3e-ba82-489ef074260f",
   "compatibilityLevel": 1465,
   "model": {
     "culture": "en-US",
     "annotations": [
       {
         "name": "__PBI_TimeIntelligenceEnabled",
-        "value": "1"
+        "value": "0"
       },
       {
         "name": "PBIDesktopVersion",
         "value": "2.68.5432.361 (19.04)"
       },
       {
-        "name": "TabularEditor_SerializeOptions",
-        "value": "{\"IgnoreInferredObjects\":true,\"IgnoreInferredProperties\":true,\"IgnoreTimestamps\":true,\"SplitMultilineStrings\":true,\"PrefixFilenames\":false,\"LocalTranslations\":false,\"LocalPerspectives\":true,\"LocalRelationships\":true,\"Levels\":[\"Data Sources\",\"Roles\",\"Tables\",\"Tables/Columns\",\"Tables/Measures\",\"Tables/Partitions\",\"Translations\"]}"
-      },
-      {
         "name": "TabularEditor_Perspectives",
         "value": "[]"
+      },
+      {
+        "name": "TabularEditor_SerializeOptions",
+        "value": "{\"IgnoreInferredObjects\":true,\"IgnoreInferredProperties\":true,\"IgnoreTimestamps\":true,\"SplitMultilineStrings\":true,\"PrefixFilenames\":false,\"LocalTranslations\":false,\"LocalPerspectives\":true,\"LocalRelationships\":true,\"Levels\":[\"Data Sources\",\"Roles\",\"Tables\",\"Tables/Columns\",\"Tables/Measures\",\"Tables/Partitions\",\"Translations\"]}"
       }
     ]
   }

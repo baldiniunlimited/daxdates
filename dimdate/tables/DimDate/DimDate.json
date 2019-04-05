@@ -11,17 +11,7 @@
     },
     {
       "name": "TabularEditor_Relationships",
-      "value": [
-        "[",
-        "  {",
-        "    \"fromTable\": \"DimDate\",",
-        "    \"fromColumn\": \"Date\",",
-        "    \"toTable\": \"LocalDateTable_e6336526-18fa-4edd-b8f8-70f39d74c0ff\",",
-        "    \"toColumn\": \"Date\",",
-        "    \"joinOnDateBehavior\": \"datePartOnly\"",
-        "  }",
-        "]"
-      ]
+      "value": "[]"
     }
   ]
 }
