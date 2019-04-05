@@ -65,5 +65,6 @@ conform to the standard calendar year (i.e. your calendar contains months which
 start and end with the standard calendar months - quarters need not align). The
 start month can be set with the FiscalStartMonth parameter. A value of 1
 indicates there is no fiscal calendar, which will omit all fiscal attributes. A
-value of 2-12 will trigger the fiscal logic. Additional fields are populated to
-support fiscal analysis, which align with 
+value of 2-12 will trigger the fiscal logic. FiscalStartMonth values outside
+1-12 are not supported. When fiscal logic is indicated, additional fields are
+populated to support fiscal analysis, which align with the definitions above.
