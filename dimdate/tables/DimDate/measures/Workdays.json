@@ -1,0 +1,11 @@
+{
+  "name": "Workdays",
+  "expression": "COUNTROWS( CALCULATETABLE( DimDate, DimDate[WorkdayFlag] ) )",
+  "formatString": "0",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />"
+    }
+  ]
+}

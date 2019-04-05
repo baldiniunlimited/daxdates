@@ -1,0 +1,26 @@
+{
+  "name": "SillyFact",
+  "annotations": [
+    {
+      "name": "PBI_Id",
+      "value": "6ac96b53-76f1-479d-9655-3cd0d6bae0b0"
+    },
+    {
+      "name": "LinkedQueryName",
+      "value": "SillyFact"
+    },
+    {
+      "name": "TabularEditor_Relationships",
+      "value": [
+        "[",
+        "  {",
+        "    \"fromTable\": \"SillyFact\",",
+        "    \"fromColumn\": \"Date\",",
+        "    \"toTable\": \"DimDate\",",
+        "    \"toColumn\": \"Date\"",
+        "  }",
+        "]"
+      ]
+    }
+  ]
+}

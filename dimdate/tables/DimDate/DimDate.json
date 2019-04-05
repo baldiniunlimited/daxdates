@@ -1,0 +1,27 @@
+{
+  "name": "DimDate",
+  "annotations": [
+    {
+      "name": "PBI_Id",
+      "value": "9ed45b61-2c7b-45e3-9d9e-75624b929167"
+    },
+    {
+      "name": "LinkedQueryName",
+      "value": "DimDate"
+    },
+    {
+      "name": "TabularEditor_Relationships",
+      "value": [
+        "[",
+        "  {",
+        "    \"fromTable\": \"DimDate\",",
+        "    \"fromColumn\": \"Date\",",
+        "    \"toTable\": \"LocalDateTable_e6336526-18fa-4edd-b8f8-70f39d74c0ff\",",
+        "    \"toColumn\": \"Date\",",
+        "    \"joinOnDateBehavior\": \"datePartOnly\"",
+        "  }",
+        "]"
+      ]
+    }
+  ]
+}

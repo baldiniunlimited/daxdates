@@ -1,0 +1,21 @@
+{
+  "name": "MonthName",
+  "dataType": "string",
+  "sourceColumn": "MonthName",
+  "sortByColumn": "MonthNumber",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Text\" />"
+    },
+    {
+      "name": "DataTypeAtRefresh",
+      "value": "String#####not a type"
+    }
+  ]
+}

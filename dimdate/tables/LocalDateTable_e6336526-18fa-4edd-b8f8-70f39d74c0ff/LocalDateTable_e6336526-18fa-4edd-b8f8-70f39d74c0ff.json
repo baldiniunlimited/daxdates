@@ -1,0 +1,48 @@
+{
+  "name": "LocalDateTable_e6336526-18fa-4edd-b8f8-70f39d74c0ff",
+  "isHidden": true,
+  "showAsVariationsOnly": true,
+  "hierarchies": [
+    {
+      "name": "Date Hierarchy",
+      "levels": [
+        {
+          "name": "Year",
+          "ordinal": 0,
+          "column": "Year"
+        },
+        {
+          "name": "Quarter",
+          "ordinal": 1,
+          "column": "Quarter"
+        },
+        {
+          "name": "Month",
+          "ordinal": 2,
+          "column": "Month"
+        },
+        {
+          "name": "Day",
+          "ordinal": 3,
+          "column": "Day"
+        }
+      ],
+      "annotations": [
+        {
+          "name": "TemplateId",
+          "value": "DateHierarchy"
+        }
+      ]
+    }
+  ],
+  "annotations": [
+    {
+      "name": "__PBI_LocalDateTable",
+      "value": "true"
+    },
+    {
+      "name": "TabularEditor_Relationships",
+      "value": "[]"
+    }
+  ]
+}

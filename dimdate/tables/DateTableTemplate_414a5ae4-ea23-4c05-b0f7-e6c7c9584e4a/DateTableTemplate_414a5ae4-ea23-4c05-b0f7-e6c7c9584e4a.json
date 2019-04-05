@@ -1,0 +1,52 @@
+{
+  "name": "DateTableTemplate_414a5ae4-ea23-4c05-b0f7-e6c7c9584e4a",
+  "isHidden": true,
+  "isPrivate": true,
+  "hierarchies": [
+    {
+      "name": "Date Hierarchy",
+      "levels": [
+        {
+          "name": "Year",
+          "ordinal": 0,
+          "column": "Year"
+        },
+        {
+          "name": "Quarter",
+          "ordinal": 1,
+          "column": "Quarter"
+        },
+        {
+          "name": "Month",
+          "ordinal": 2,
+          "column": "Month"
+        },
+        {
+          "name": "Day",
+          "ordinal": 3,
+          "column": "Day"
+        }
+      ],
+      "annotations": [
+        {
+          "name": "TemplateId",
+          "value": "DateHierarchy"
+        }
+      ]
+    }
+  ],
+  "annotations": [
+    {
+      "name": "__PBI_TemplateDateTable",
+      "value": "true"
+    },
+    {
+      "name": "DefaultItem",
+      "value": "DateHierarchy"
+    },
+    {
+      "name": "TabularEditor_Relationships",
+      "value": "[]"
+    }
+  ]
+}

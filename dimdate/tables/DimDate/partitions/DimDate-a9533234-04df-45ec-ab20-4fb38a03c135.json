@@ -1,0 +1,9 @@
+{
+  "name": "DimDate-a9533234-04df-45ec-ab20-4fb38a03c135",
+  "mode": "import",
+  "source": {
+    "type": "query",
+    "query": "SELECT * FROM [DimDate]",
+    "dataSource": "91b6608a-7d05-41fb-8d36-c72a5ab6e42e"
+  }
+}

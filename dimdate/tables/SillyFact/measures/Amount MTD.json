@@ -1,0 +1,22 @@
+{
+  "name": "Amount MTD",
+  "expression": [
+    "",
+    "VAR CurrentMonth = [CurrentMonth]",
+    "VAR CurrentDay = [CurrentDayOfMonth]",
+    "RETURN",
+    "    CALCULATE (",
+    "        [Base],",
+    "        ALL ( 'DimDate' ),",
+    "        'DimDate'[MonthIndex] = CurrentMonth,",
+    "        'DimDate'[DayOfMonth] <= CurrentDay",
+    "    )"
+  ],
+  "formatString": "\\$#,0.###############;(\\$#,0.###############);\\$#,0.###############",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"CurrencyGeneral\" ThousandSeparator=\"True\"><Currency LCID=\"0\" DisplayName=\"Currency general\" Symbol=\"$\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+    }
+  ]
+}

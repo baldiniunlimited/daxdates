@@ -1,0 +1,9 @@
+{
+  "name": "SillyFact-9ad25d48-9446-48ce-83fe-154326c8a33d",
+  "mode": "import",
+  "source": {
+    "type": "query",
+    "query": "SELECT * FROM [SillyFact]",
+    "dataSource": "5ef4f44c-5805-4823-a57e-d3c1d0211359"
+  }
+}

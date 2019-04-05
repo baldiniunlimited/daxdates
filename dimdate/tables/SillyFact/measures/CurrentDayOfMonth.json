@@ -1,0 +1,15 @@
+{
+  "name": "CurrentDayOfMonth",
+  "expression": [
+    "",
+    "MAX ( 'DimDate'[DayOfMonth] ) // see notes on [CurrentYear]"
+  ],
+  "formatString": "0",
+  "isHidden": true,
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />"
+    }
+  ]
+}

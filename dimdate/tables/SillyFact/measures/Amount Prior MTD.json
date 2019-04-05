@@ -1,0 +1,23 @@
+{
+  "name": "Amount Prior MTD",
+  "expression": [
+    "",
+    "// Note that this is much more straightforward with MonthIndex and DayOfMonth columns than alternatives.",
+    "VAR PMonth = [CurrentMonth] - 1",
+    "VAR CurrentDay = [CurrentDayOfMonth]",
+    "RETURN",
+    "    CALCULATE (",
+    "        [Base],",
+    "        ALL ( 'DimDate' ),",
+    "        'DimDate'[MonthIndex] = PMonth,",
+    "        'DimDate'[DayOfMonth] <= CurrentDay",
+    "    )"
+  ],
+  "formatString": "\\$#,0.###############;(\\$#,0.###############);\\$#,0.###############",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"CurrencyGeneral\" ThousandSeparator=\"True\"><Currency LCID=\"1033\" DisplayName=\"$ English (United States)\" Symbol=\"$\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+    }
+  ]
+}

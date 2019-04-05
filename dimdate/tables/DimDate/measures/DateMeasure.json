@@ -1,0 +1,11 @@
+{
+  "name": "DateMeasure",
+  "expression": "MAX( DimDate[Date] )",
+  "formatString": "yyyy-mm-dd",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeGeneralPattern\"><DateTimes><DateTime LCID=\"1033\" Group=\"ShortDate\" FormatString=\"yyyy-MM-dd\" /></DateTimes></Format>"
+    }
+  ]
+}
