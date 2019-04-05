@@ -9,6 +9,16 @@ Query, and SSAS Tabular.
 [PQ DimDate](PQ%20DimDate.pbix) holds a date dimension generated entirely in M
 script and forms a basis for most useful time intelligence patterns in DAX.
 
+### Time intelligence patterns included
+
+The model currently holds the following time intelligence patterns.
+
+- To-date patterns:
+  - Month-to-date
+  - Prior Month-to-date
+  - Year-to-date
+  - Fiscal Year-to-date
+
 ### Notes on the date dimension
 
 Useful columns:
@@ -69,3 +79,23 @@ value of 2-12 will trigger the fiscal logic. FiscalStartMonth values outside
 1-12 are not supported. When fiscal logic is indicated, additional fields are
 populated to support fiscal analysis, which align with the definitions above.
 
+## Upcoming
+
+Planned time intelligence patterns include, but are not limited to:
+
+- Rolling averages
+- Shifting periods
+- Period-on-period deltas
+- Simple weighted forecast
+
+I plan to implement a version of DimDate which can be generated efficiently from
+period start- and end-dates, which should support any arbitrary fiscal calendar,
+provided you can give those period boundaries.
+
+I also want to include other date and time logic, including, but not limited to
+the below items:
+
+- Handling users in multiple time zones with the concept of "today"
+- Calculating expected end-dates for projects
+
+Feel free to raise issues for anything you think might fit.
