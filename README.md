@@ -49,7 +49,7 @@ Useful columns:
   is populated for all dates that fall between January 1 and March 15
   (inclusive), for all years, not just 2019. This becomes very useful for
   reporting filters. A common example might be `YearOffset IN {0, -1} &&
-  `YTD=TRUE`. This would show dates in the current and prior years, but only up
+  YTD=TRUE`. This would show dates in the current and prior years, but only up
   to "today" for each year.
 - DayOf fields indicate a date's position in various periods. These fields
   handle leap years very specifically. In short, a given date will always have
